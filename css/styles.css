@@ -1,0 +1,102 @@
+:root {
+    --primaryColor: #ff52bf;
+    --secondaryPale: #ebfbff;
+    --secondaryDark: #00252e;
+    --terciaryColor: #808d99;
+    --fontSize: 1.8rem;
+    --headingFont: 'Poppins', sans-serif;
+    --secondaryFont: 'Open Sans', sans-serif;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: var(--fontSize);
+    font-family: var(--secondaryFont);
+}
+
+h1, h2 {
+    font-family: var(--headingFont);
+}
+
+header {
+    width: 100%;
+    background-color: var(--secondaryPale);
+    background-image: url("../images/bg-hero-desktop.svg");
+    padding: 5rem;
+    position: relative;
+}
+
+#try-it {
+    position: absolute;
+    right: 3rem;
+    border: none;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 2px 2px #666666;
+    -moz-box-shadow: 0px 2px 2px #666666;
+    box-shadow: 0px 2px 2px #666666;
+    color: var(--secondaryDark);
+    background: #ffffff;
+    padding: 1rem 4rem 1rem 4rem;
+    text-decoration: none;
+}
+  
+#try-it:hover {
+    cursor: pointer;
+}
+
+.low-head {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    grid-column-gap: 5rem;
+    padding: 3rem;
+    margin-top: 6rem;
+}
+
+.heading {
+    max-width: 100%;
+}
+
+.low-head .heading h1 {
+    line-height: 1.5;
+}
+
+.low-head .heading p {
+    line-height: 2;
+} 
+
+.head-img img {
+    max-width: 100%;
+}
+
+.heading #start {
+    margin-top: 2rem;
+    border: none;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 2px 2px #666666;
+    -moz-box-shadow: 0px 2px 2px #666666;
+    box-shadow: 0px 2px 2px #666666;
+    color: #ffffff;
+    background: var(--primaryColor);
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    text-decoration: none;
+}
+
+.heading #start:hover {
+    cursor: pointer;
+}
+
+  
