@@ -99,4 +99,138 @@ header {
     cursor: pointer;
 }
 
+.main-content {
+    margin: 5rem 15rem;
+    position: relative;
+    line-height: 2;
+}
+
+.grow-together {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 #d6d5d5;
+    margin: 3rem 0;
+}
+
+.grow-together .text {
+    padding: 3rem;
+}
+
+.grow-image {
+    text-align: center;
+}
+
+.grow-image img{
+    width: 31rem;
+}
+
+.flow-convers {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 #d6d5d5;
+    margin: 3rem 0;
+}
+
+.flow-convers .text {
+    padding: 3rem;
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.flow-image {
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.flow-image img{
+    width: 31rem;
+}
+
+.your-users {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 #d6d5d5;
+    margin: 3rem 0;
+    margin-bottom: 20rem;
+}
+
+.your-users .text {
+    padding: 3rem;
+}
+
+.users-image {
+    text-align: center;
+}
+
+.users-image img{
+    width: 31rem;
+}
+
+.text p {
+    color: var(--terciaryColor);
+}
+
+.float-box {
+    width: 50%;
+    padding: 5rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 #d6d5d5;
+    position: absolute;
+    left: 25%;
+    top: 107%;
+    background-color: #ffffff;
+}
+
+.float-box h2 {
+    margin-bottom: 4rem;
+}
+
+.float-box button {
+    border: none;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 2px 2px #666666;
+    -moz-box-shadow: 0px 2px 2px #666666;
+    box-shadow: 0px 2px 2px #666666;
+    color: #ffffff;
+    background: var(--primaryColor);
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    text-decoration: none;
+}
+
+.float-box button:hover {
+    cursor: pointer;
+} 
+
+footer {
+    size: border-box;
+    background-color: var(--secondaryDark);
+    color: #ffffff;
+    padding: 20rem 5rem 1rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+}
+
+.left-box {
+    padding-right: 10rem;
+}
+
+.left-box #logo {
+    margin-bottom: 3rem;
+}
+
   
